@@ -1,5 +1,4 @@
 
-<body>
     <header>
         <a roterLink="gallery" id="logo">
             <h1>Maricela Sanchez Miranda</h1>
@@ -8,19 +7,17 @@
         <nav>
             <ul>
                 <li><a routerLink="gallery" class="selected">Portfolio</a></li>
-                <li><a routerLink="about">About</a></li>
+                <li><a routerLink="bout">About</a></li>
                 <li><a routerLink="contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <div id="wrapper">
-     <app-gallery></app-gallery>
-     <app-about></app-about>
-     <app-contact></app-contact>
-     <router-outlet></router-outlet>
+  
         <footer>
             <a href="https://twitter.com/mayela0x14">Twitter</a>
             <p>&copy; 2018 Maricela Sanchez Miranda.</p>
         </footer>
     </div>
-</body>
+
+<router-outlet></router-outlet>
