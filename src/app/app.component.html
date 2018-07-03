@@ -1,15 +1,15 @@
 
 <body>
     <header>
-        <a href="index.html" id="logo">
+        <a roterLink="gallery" id="logo">
             <h1>Maricela Sanchez Miranda</h1>
             <h2>Backend developer</h2>
         </a>
         <nav>
             <ul>
-                <li><a href="index.html" class="selected">Portfolio</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a routerLink="gallery" class="selected">Portfolio</a></li>
+                <li><a routerLink="about">About</a></li>
+                <li><a routerLink="contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -17,6 +17,7 @@
      <app-gallery></app-gallery>
      <app-about></app-about>
      <app-contact></app-contact>
+     <router-outlet></router-outlet>
         <footer>
             <a href="https://twitter.com/mayela0x14">Twitter</a>
             <p>&copy; 2018 Maricela Sanchez Miranda.</p>
